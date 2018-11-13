@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info Type="StartUp" Visible="0" Icon="" File="ThrustVsThrottleDataset.xlsx" Name="ThrustVsThrottleDataset">
+    <Extension Value="edbedc4a-9d27-4123-86d2-b7ba4b16133b" Name="StartUpPrev" />
+</Info>
