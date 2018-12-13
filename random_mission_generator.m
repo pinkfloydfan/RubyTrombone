@@ -15,7 +15,7 @@ for i =1:length(altitudes) %60 second mission with a new altitude command every 
     
     altitudes(1,i) = i/10; %timestep of 0.1s
     
-    num = randi([1 30]);
+    num = randi([1 150]);
     if num == 2
         newAlt = rand*1.4;
         oldAlt = newAlt;
