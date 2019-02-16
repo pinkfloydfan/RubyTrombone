@@ -4,12 +4,12 @@
 clear 
 clc
 
-altitudes = zeros(2,1800); %change the latter to change the duration of the mission, altitude commands are in .1 second intervals.
+altitudes = zeros(2,3000); %change the latter to change the duration of the mission, altitude commands are in .1 second intervals.
 
 rand_scale  = 1.1; %scale-down to ensure that the ramps don't exceed max height
 rand_length = 400; %length of random ramps
 
-alt_change_probability = 1500; %1/probability of a step altitue change - higher = less of a chance
+alt_change_probability = 200; %1/probability of a step altitue change - higher = less of a chance
 
 rigHeight = 1.7; %test rig height
 rigHeight = rigHeight/rand_scale; %; implementing the scaling 
